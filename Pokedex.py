@@ -79,7 +79,7 @@ def buscar_pokemon(nombre_o_numero):
         altura = datos.get("height", 0) / 10
         url_imagen = datos["sprites"]["front_default"]
         
-        print(f"\n{AZUL_TURQUESA}--- 🌍 Pokédex: Datos Encontrados ---{RESET}")
+        print(f"\n{AZUL_TURQUESA}---  Pokédex: Datos Encontrados ---{RESET}")
         print(f"{AMARILLO_BRILLANTE}Nombre:{RESET} {nombre}")
         print(f"{AMARILLO_BRILLANTE}Peso:{RESET} {peso} kg")
         print(f"{AMARILLO_BRILLANTE}Altura:{RESET} {altura} m")
